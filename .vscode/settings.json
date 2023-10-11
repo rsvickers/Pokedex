@@ -1,0 +1,33 @@
+{
+  "javascript.preferences.importModuleSpecifier": "relative",
+  "javascript.preferences.importModuleSpecifierEnding": "js",
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#ec3939",
+    "activityBar.background": "#ec3939",
+    "activityBar.foreground": "#e7e7e7",
+    "activityBar.inactiveForeground": "#e7e7e799",
+    "activityBarBadge.background": "#085708",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "commandCenter.border": "#e7e7e799",
+    "sash.hoverBorder": "#ec3939",
+    "statusBar.background": "#dd1515",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#ec3939",
+    "statusBarItem.remoteBackground": "#dd1515",
+    "statusBarItem.remoteForeground": "#e7e7e7",
+    "titleBar.activeBackground": "#dd1515",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveBackground": "#dd151599",
+    "titleBar.inactiveForeground": "#e7e7e799"
+  },
+  "peacock.color": "#dd1515",
+  "cSpell.words": [
+    "codeworksclassroom",
+    "NAVLINKS",
+    "Pixelify",
+    "Pokedex",
+    "Pokemons",
+    "Qvldml",
+    "Rhys"
+  ],
+}

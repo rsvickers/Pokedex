@@ -1,0 +1,17 @@
+/* BASIC STYLES HERE */
+body {
+    font-family: 'Pixelify Sans', sans-serif;
+    background-image: url('https://images.unsplash.com/photo-1638613067237-b1127ef06c00?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1932&q=80');
+    color: white;
+}
+
+.pokemonButton {
+    background-color: rgba(255, 0, 0, 0.703);
+    border: 7px solid black;
+    color: white;
+}
+
+#pokemon {
+    max-height: 70vh;
+    overflow-y: scroll;
+}
