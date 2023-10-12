@@ -16,6 +16,10 @@ function _drawPokemon() {
     setHTML('pokemon', content)
 }
 
+function _drawActivePokemon() {
+    setHTML('activePokemon', AppState.activePokemon?.activePokemonTemplate)
+}
+
 
 
 export class PokemonsController {
@@ -24,6 +28,7 @@ export class PokemonsController {
         this.getPokemons()
 
         AppState.on('pokemon', _drawPokemon)
+        AppState.on('activePokemon', _drawActivePokemon)
 
     }
     async getPokemons() {

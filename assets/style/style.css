@@ -15,3 +15,7 @@ body {
     max-height: 70vh;
     overflow-y: scroll;
 }
+
+.pokemon-img {
+    size: 10em;
+}
