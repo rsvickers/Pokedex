@@ -13,16 +13,18 @@ export class Pokemon {
 
     get activePokemonTemplate() {
         return `
-        <div class="col-md-9 p-4 order 1 order-md-2 text-center text-dark">
-        <h1>${this.name}</h1>
-        <img class="img-fluid" src="${this.imgUrl}"
-          alt="">
-        <div class="pokemonButton">
-          <p>${this.height}ft and ${this.weight}lbs</p>
-          <p>Hello</p>
-        </div>
-      </div>
-`
+            <div class="col-md-9 p-4 order 1 order-md-2 text-center text-dark">
+            <h1>${this.name}</h1>
+            <img class="img-fluid" src="${this.imgUrl}"
+              alt="">
+            <div class="pokemonButton">
+              <p>${this.height}cm and ${this.weight}lbs</p>
+              <button type="button" role="button" class="btn btn-success text-end"
+              onclick="app.PokemonsController.catchPokemon('${this.id}')">Catch
+              <i class="mdi mdi-pokeball"></i></button>
+            </div>
+          </div>
+    `
     }
 
 }
